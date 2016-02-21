@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Form Example</title>
+	</head>
+	<body>
+		<form action="test.asp" method="get">
+		<fieldset >
+			<legend height="20px" width="50px">Your Details:</legend>
+			Name:<input type="text" name="Name"> <br>
+			Email:<input type="text" name="email">
+		</fieldset> <br>
+		<fieldset>
+			<legend>Your Review:</legend>
+			How did you hear about us?
+			<select>
+				<option>Google</option>
+				<option>NewsPaper</option>
+				<option>Magazine</option>
+			</select> <br><br>
+			Would you visit again? <br>
+			<input type ="radio" name="response" > Yes 
+			<input type ="radio" name="response" checked="checked"> No 
+			<input type ="radio" name="response"> Maybe <br> <br>
+			Comments:<br>
+			<textarea rows="10" cols="50"></textarea>
+			<br>
+			<input type ="checkbox" name="send_updates" checked="checked">Sign me up for email updates <br><br>
+			<input type="submit" value="Submit review">
+			
+		</fieldset>
+		</form>
+	</body>
+	
+</html>
